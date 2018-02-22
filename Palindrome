@@ -1,0 +1,37 @@
+//
+//  main.cpp
+//  Palindrome
+// 
+//  Created by Ty Dorsey on 11/13/17.
+//  Copyright © 2017 Ty Dorsey. All rights reserved.
+//
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+	//Variable will hold user message
+	string msg;
+	
+	// Prompt user for message to test
+	cout << "Enter a word and I will check if it's a palindrome.";
+	cout <<"\n\n\n\t * Please note I'm case sensitive. *"<<endl;
+	cout<<endl;
+	cin >> msg;
+	
+	//Test
+	if (( equal( msg.begin(), msg.begin() + msg.size()/2, msg.rbegin() ) )) {
+		cout<<endl;
+		cout << "Success! "<< msg << " is a palindrome."<<endl;
+	} else {
+		cout<<endl;
+		cout<< "Oh no! "<< msg << " isn't a palindrome."<<endl;
+	}
+	
+	
+    cin.ignore();
+    cin.get();
+    return 0;
+}
