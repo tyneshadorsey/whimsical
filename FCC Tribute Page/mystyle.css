@@ -1,0 +1,53 @@
+/* Importing Google Fonts */ 
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body{
+  background-color: pink;
+}
+h1 {
+  font-size: 48px;
+  color: white;
+  font-family: 'Shadows Into Light' , cursive;
+  text-align: center;
+  padding: -25px;
+  margin-bottom: -25px;
+}
+
+h2{
+  font-size: 28px;
+  color: white;
+  font-family: 'Shadows Into Light' , cursive;
+  text-align: center;
+  padding: -25px;
+  margin-bottom: 25px;
+}
+
+p{
+  font-size: 17px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.img{
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+  length: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#img-caption{
+  margin: 10px;
+  text-align: center;
+  font-family: 'Quicksand' , sans-serif;
+  padding: 10px;
+}
+#timeline-text{
+  text-size: 13px;
+  font-family: 'Quicksand' , sans-serif;
+}
+.bold-text{
+  font-style: bold;
+}
